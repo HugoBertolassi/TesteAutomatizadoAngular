@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome Headless 106.0.5249.121 (Windows 10)" package="" timestamp="2022-10-31T17:31:43" id="0" hostname="DESKTOP-51LI0N7" tests="8" errors="0" failures="0" time="0.074">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/106.0.5249.121 Safari/537.36"/>
+  </properties>
+  <testcase name="UniqueIdService generateUniqueIdWithPrefix should generate id when called with prefix" time="0.03" classname="Chrome_Headless_106_0_5249_121_(Windows_10).UniqueIdService"/>
+  <testcase name="UniqueIdService #generateUniqueIdWithPrefix should not generate duplicate IDs when called multiple times" time="0.001" classname="Chrome_Headless_106_0_5249_121_(Windows_10).UniqueIdService"/>
+  <testcase name="UniqueIdService generateUniqueIdWithPrefix&#xA;  should throw when called with empty" time="0" classname="Chrome_Headless_106_0_5249_121_(Windows_10).UniqueIdService"/>
+  <testcase name="UniqueIdService #getNumberOfGeneratedUniqueIds should return the number of generateIds when Called" time="0" classname="Chrome_Headless_106_0_5249_121_(Windows_10).UniqueIdService"/>
+  <testcase name="LikeWidgetComponent should NOT generate ID when id input property is present" time="0.028" classname="Chrome_Headless_106_0_5249_121_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent #like should trigger emission when called" time="0.006" classname="Chrome_Headless_106_0_5249_121_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent Should Create Component" time="0.004" classname="Chrome_Headless_106_0_5249_121_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent Should auto generate ID when id input property is missing" time="0.005" classname="Chrome_Headless_106_0_5249_121_(Windows_10).LikeWidgetComponent"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

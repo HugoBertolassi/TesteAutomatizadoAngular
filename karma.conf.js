@@ -11,7 +11,8 @@ module.exports = function (config) {
       require('karma-firefox-launcher'),
       require('karma-jasmine-html-reporter'),
       require('karma-coverage'),
-      require('@angular-devkit/build-angular/plugins/karma')
+      require('@angular-devkit/build-angular/plugins/karma'),
+      require('karma-junit-reporter')
     ],
     client: {
       clearContext: false // leave Jasmine Spec Runner output visible in browser
@@ -29,8 +30,17 @@ module.exports = function (config) {
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: true,
-    browsers: ['Chrome','Firefox'],
+    browsers: [
+      'Chrome',
+      //'Firefox'
+    ],
     singleRun: false,
-    restartOnFileChange: true
+    restartOnFileChange: true,
+    customLaunchers:{
+      FirefoxSemCabeca:{
+        base:'Firefox',
+        flags:['-headless'],
+      }
+    }
   });
 };
