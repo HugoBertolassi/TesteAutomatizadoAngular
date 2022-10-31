@@ -1,4 +1,9 @@
-Rodar npm i
+Projeto do curso Angular: testes automatizados com Jasmine e Karma
+Com foco em testes automatizados
+
+////////////
+Comandos e dicas 
+1-Rodar npm i--
 2-Angular usa como padrao jasmine como testador
   nome do teste deve ser blabla should blablabla when blablabla 
 3-describe(UniqueIdService.name,()=>{
