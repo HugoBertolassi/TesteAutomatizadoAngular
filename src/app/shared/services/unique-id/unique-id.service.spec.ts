@@ -28,7 +28,7 @@ describe(UniqueIdService.name,()=>{
     expect(ids.size).toBe(50)
 
 
-    
+
     // const firstId= service.generateUniqueIdWithPrefix('app');
     // const secondId= service.generateUniqueIdWithPrefix('app');
     // expect(firstId).not.toBe(secondId);//espero que os dois sejam diferentes

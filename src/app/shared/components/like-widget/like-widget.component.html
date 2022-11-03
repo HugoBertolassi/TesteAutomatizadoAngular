@@ -1,18 +1,24 @@
-<div class="like-widget-container"
+<!-- <div class="like-widget-container"
+  (appAction)="like()"
   (click)="like()"
-  (keyup.enter)="like()">
+  (keyup.enter)="like()"> -->
+<div class="like-widget-container"
+  (appAction)="like()"
+  >
+
   <fa-icon
-  [attr.aria-describedby]="id"
-  role="button"
-  size="1x"
-  tabindex="0"
-  [icon]="fonts.faThumbsUp">
+    role="button"
+    tabindex="0"
+    [attr.aria-describedby]="id"
+    size="1x"
+    [icon]="fonts.faThumbsUp">
   </fa-icon>
-  <span  [attr.id]="id"
-  [attr.aria-label]="likes + ': people liked'"
-  aria-live="true"
-  aria-atomic="true"
-  class="like-counter">
-    {{likes}}
+  <span
+    [attr.id]="id"
+    [attr.aria-label]="likes + ': people liked'"
+    class="like-counter"
+    aria-live="true"
+    aria-atomic="true">
+    {{ likes }}
   </span>
 </div>
