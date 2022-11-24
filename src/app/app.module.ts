@@ -1,3 +1,4 @@
+import { PhotoListModule } from './components/photo-list/photo-list.module';
 import { PhotoBoardModule } from './shared/components/photo-board/photo-board.module';
 import { PhotoFrameModule } from './shared/components/photo-frame/photo-frame.module';
 import { BrowserModule } from '@angular/platform-browser';
@@ -15,10 +16,11 @@ import {  HttpClientModule} from '@angular/common/http'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    LikeWidgetModule,
-    PhotoFrameModule,
+   // LikeWidgetModule,
+   // PhotoFrameModule,
     HttpClientModule,
-    PhotoBoardModule
+   // PhotoBoardModule,
+    PhotoListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
